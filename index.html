@@ -17,6 +17,14 @@
             position: relative;
         }
         
+        html {
+            background: #000000; /* Force entire page to be black */
+        }
+        
+        * {
+            background-color: transparent !important; /* Override any other backgrounds */
+        }
+        
         body::before {
             content: '';
             position: fixed;
