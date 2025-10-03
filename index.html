@@ -11,14 +11,10 @@
             margin: 0 auto;
             padding: 20px;
             line-height: 1.6;
-            background: #000000; /* Absolute black background */
+            background: #000000; /* Pure black background */
             color: white;
             min-height: 100vh;
             position: relative;
-        }
-        
-        html {
-            background: #000000; /* Ensure entire page is black */
         }
         
         body::before {
@@ -46,11 +42,9 @@
         }
         
         .container {
-            background: rgba(255, 255, 255, 0.1);
+            background: transparent;
             padding: 40px;
             border-radius: 20px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
         
         .logo-container {
