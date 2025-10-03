@@ -23,29 +23,6 @@
             overflow-x: hidden; /* Prevent horizontal scrolling on entire page */
         }
         
-        body::before {
-            content: '';
-            position: fixed;
-            top: -100px;
-            left: -100px;
-            width: 400px;
-            height: 400px;
-            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-            border-radius: 50%;
-            z-index: -1;
-        }
-        
-        body::after {
-            content: '';
-            position: fixed;
-            bottom: -150px;
-            right: -150px;
-            width: 500px;
-            height: 500px;
-            background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
-            border-radius: 50%;
-            z-index: -1;
-        }
         
         .container {
             background: transparent;
